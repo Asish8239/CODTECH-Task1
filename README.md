@@ -21,5 +21,7 @@ tasks. Use local storage for task implementations.
 
 ### Languages Used
 **html**
+
 **Avanced css**
+
 **Javascript**
