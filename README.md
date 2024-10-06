@@ -9,7 +9,7 @@
 
 **Duration:** Sept to Oct 2024
 
-**Mentor:**Neela Santhosh Kumar
+**Mentor:** Neela Santhosh Kumar
 
 ### Overview of the Project
 ### Project: To-do List Applicaion
