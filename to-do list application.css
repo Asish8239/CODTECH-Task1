@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.8;
+    /* found background color on browser */
+    background: #FC354C;
+    background: -webkit-linear-gradient(to left, #0ABFBC, #FC354C);
+    background: linear-gradient(to left, #0ABFBC, #FC354C);   
+}
+
+body h1{
+    font-size: 30px;
+    text-align: center;
+  
+}
+
+.todo-container {
+    max-width: 500px;
+    margin: 50px;
+    margin-top: 80px;
+    margin-left: 520px;
+    padding: 20px;
+   background-color: white;
+    border: 5px solid aqua;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.0);
+}
+
+#task-input {
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 65px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+#task-input:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+}
+
+#add-btn {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 15px;
+    margin-left: 40%;
+    background-color: lightyellow;
+    color: darkviolet;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#add-btn:hover{
+    background-color: orange;
+    color: darkblue;
+    border: 2px darkmagenta solid;
+}
+
+#active-task-list, #completed-task-list {
+    list-style:decimal;
+    
+    padding-left: 20px;
+    margin: 0;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 1px solid orange;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task {
+    transition: background-color 0.6s;
+}
+
+.task:hover {
+    background-color: lightblue;
+}
+
+.delete-btn {
+    float: right;
+    background-color: white;
+    color: red;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: red;
+    color: white;
+    border: 2px white solid;
+}
+
+.edit-btn {
+    float: right;
+    background-color: white;
+    color: green;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.edit-btn:hover{
+    background-color: green;
+    color: white;
+    border: 2px white solid;
+}
+
+.delete-btn i, .edit-btn i {
+    margin-right: 5px;
+}
+
+.completed-task {
+    text-decoration:line-through;
+    color: green;
+    font-size: larger;
+    font-family: cursive;
+}
+
+.complete-btn{
+    background-color: white;
+    margin-left: 40px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.complete-btn:hover{
+    background-color: lightgreen;
+    border: 3px darkgreen solid;
+}
