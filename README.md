@@ -1,10 +1,10 @@
 # COTECH-Task1
-Name: SAMIRAJU ASISH
-Company: CODTECH IT SOLUTIONS
-ID: CT08DS8540
-Domain:Frontend Web Development
-Duration: Sept to Oct 2024
-Mentor:Neela Santhosh Kumar
+**Name**: SAMIRAJU ASISH
+**Company**: CODTECH IT SOLUTIONS
+**ID**: CT08DS8540
+**Domain**:Frontend Web Development
+**Duration**: Sept to Oct 2024
+**Mentor**:Neela Santhosh Kumar
 
 ### Overview of the Project
 ### Project: To-do List Applicaion
@@ -15,6 +15,6 @@ Implement CRUD operations (Create, Read, Update, Delete) for
 tasks. Use local storage for task implementations.
 
 ### Languages Used
-html
-Avanced css
-Javascript
+**html**
+**Avanced css**
+**Javascript**
