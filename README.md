@@ -12,6 +12,7 @@
 **Mentor:** Neela Santhosh Kumar
 
 ### Overview of the Project
+
 ### Project: To-do List Applicaion
 
 ### Objective
@@ -25,3 +26,7 @@ tasks. Use local storage for task implementations.
 **Avanced css**
 
 **Javascript**
+
+
+
+![Screenshot 2024-10-06 195129](https://github.com/user-attachments/assets/5827900c-1698-4138-a564-6e982344d950)
